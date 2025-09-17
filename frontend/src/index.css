@@ -4,3 +4,9 @@
 * {
   font-family: "Baloo Bhai 2", sans-serif;
 }
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent;
+  }
+}
